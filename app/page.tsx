@@ -7,6 +7,16 @@ import Link from "next/link";
 export default function Home() {
   return (
     <main className="h-full w-full wrapper space-y-4 flex flex-col items-center">
+      {/* Roket */}
+      <video
+        autoPlay
+        muted
+        loop
+        className="h-[75px] w-[75px] md:h-[125px] md:w-[125px] object-cover absolute right-4 lg:right-[200px] top-2"
+      >
+        <source src="/10.webm" type="video/webm" />
+      </video>
+
       <Header />
       
       {/* Earth */}
@@ -32,7 +42,7 @@ export default function Home() {
         autoPlay
         muted
         loop
-        className="h-[75px] w-[75px] md:h-[150px] md:w-[150px] object cover"
+        className="h-[100px] w-[100px] md:h-[175px] md:w-[175px] object cover"
       >
         <source src="/11.webm" type="video/webm" />
       </video>
