@@ -2,6 +2,7 @@ import Header from "@/components/Header";
 import Kenneth from "@/components/Kenneth";
 import ProgramKerja from "@/components/ProgramKerja";
 import VisiMisi from "@/components/VisiMisi";
+import Link from "next/link";
 
 export default function Home() {
   return (
@@ -35,6 +36,16 @@ export default function Home() {
 
       <ProgramKerja />
 
+      {/* Link To Draft */}
+      <p className="text-white text-center font-source-code-pro pt-20 pb-4">
+        Lihat Selengkapnya Di 
+      </p>
+      <div className="text-space font-source-code-pro bg-primaryOrange rounded-xl px-16 py-4 cursor-pointer z-30 hover:bg-primaryOrange/75">
+        <a target="_blank" href="https://drive.google.com/file/d/12UJR-MGnlqnHfBDVZ9oJTPR1malDLVBv/view">
+          Draft Kenneth
+        </a>
+      </div>
+  
     </main>
   );
 }
