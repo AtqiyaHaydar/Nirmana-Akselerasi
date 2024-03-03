@@ -52,7 +52,8 @@ export default function Home() {
 
       {/* Question */}
       <p className="px-4 max-w-4xl text-white text-center font-source-code-pro py-20">
-        Lalu, Apa Saja Program Kerjanya?
+        Lalu, Apa Saja Program Kerjanya? <br/>
+        <span className="text-center text-[12px] text-white">(klik untuk melihat detail)</span>
       </p>
 
       <ProgramKerja />

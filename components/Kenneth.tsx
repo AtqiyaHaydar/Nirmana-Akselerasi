@@ -11,7 +11,7 @@ const Kenneth = () => {
           <p className='text-[12px]'>(Kenneth Ezekiel Supratoni)</p>
         </div>
         <p className='max-w-[500px] text-[14px]'>
-          Sebagai seorang yang memiliki kepribadian <span className='text-primaryOrange'>ENFJ-A</span>, atau yang dikenal sebagai <span className='text-primaryOrange'>"The Prontagonist"</span>, Kenneth memiliki kemampuan untuk mempengaruhi orang lain dan memimpin dengan inspiratif. Selain itu, dia juga dikenal sebagai sosok yang ramah, peduli, dan selalu siap membantu orang lain.
+          Seorang yang memiliki kepribadian <span className='text-primaryOrange'>ENFJ-A</span>, atau yang dikenal sebagai <span className='text-primaryOrange'>"The Prontagonist"</span>, Kenneth memiliki kemampuan untuk mempengaruhi orang lain dan memimpin dengan inspiratif. Selain itu, dia juga dikenal sebagai sosok yang ramah, peduli, dan selalu siap membantu orang lain.
         </p>
       </div>
       <div>
