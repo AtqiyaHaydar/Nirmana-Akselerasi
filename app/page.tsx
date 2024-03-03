@@ -14,7 +14,7 @@ export default function Home() {
         autoPlay
         muted
         loop
-        className="h-[500px] w-[500px] object cover"
+        className="h-[375px] w-[375px] md:h-[500px] md:w-[500px] object cover"
       >
         <source src="/20.webm" type="video/webm" />
       </video>
@@ -22,7 +22,7 @@ export default function Home() {
       <Kenneth />
         
       {/* Quote */}
-      <p className="max-w-4xl text-white text-center font-source-code-pro py-20">
+      <p className="px-4 max-w-4xl text-white text-center font-source-code-pro py-20">
         "HMIF JADI WADAH YANG SESUAI, YANG BISA MEMENUHI KEBUTUHAN
         MAHASISWANYA DAN BISA BERDAMPAK BAGI MASYARAKAT!" <br/> <br/> - Kenneth
       </p>
@@ -30,14 +30,14 @@ export default function Home() {
       <VisiMisi />
 
       {/* Question */}
-      <p className="max-w-4xl text-white text-center font-source-code-pro py-20">
+      <p className="px-4 max-w-4xl text-white text-center font-source-code-pro py-20">
         Lalu, Apa Saja Program Kerjanya?
       </p>
 
       <ProgramKerja />
 
       {/* Link To Draft */}
-      <p className="text-white text-center font-source-code-pro pt-20 pb-4">
+      <p className="px-4 text-white text-center font-source-code-pro pt-20 pb-4">
         Lihat Selengkapnya Di 
       </p>
       <div className="text-space font-source-code-pro bg-primaryOrange rounded-xl px-16 py-4 cursor-pointer z-30 hover:bg-primaryOrange/75">
