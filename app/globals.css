@@ -1,50 +1,22 @@
-@import url('https://fonts.googleapis.com/css2?family=Raleway:ital,wght@0,100..900;1,100..900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Code+Pro:ital,wght@0,200..900;1,200..900&display=swap');
+
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
 
-/* Font Families*/
 @font-face {
-  font-family: 'The-Seasons';
+  font-family: 'The Seasons';
   src: url(../components/fonts/the_seasons/Fontspring-DEMO-theseasons-reg.otf);
 }
-
-@font-face {
-  font-family: 'The-Seasons-Italic';
-  src: url(../components/fonts/the_seasons/Fontspring-DEMO-theseasons-it.otf);
-}
-
-@font-face {
-  font-family: 'The-Seasons-Bold';
-  src: url(../components/fonts/the_seasons/Fontspring-DEMO-theseasons-bd.otf);
-}
-
-@font-face {
-  font-family: 'The-Seasons-Bold-Italic';
-  src: url(../components/fonts/the_seasons/Fontspring-DEMO-theseasons-bdit.otf);
-}
-
-/* Base */
+   
 @layer base {
-  .wrapper {
-    @apply max-w-7xl mx-auto;
+  * {
+    @apply border-border;
   }
-
+  body {
+    @apply bg-background text-foreground;
+  }
   .font-the-seasons {
-    font-family: 'The-Seasons', sans;
-  }
-
-  .font-the-seasons-italic {
-    font-family: 'The-Seasons-Italic', sans;
-  }
-
-  .font-the-seasons-bold {
-    font-family: 'The-Seasons-Bold', sans;
-  }
-
-  .font-the-seasons-bold-italic {
-    font-family: 'The-Seasons-Bold-Italic', sans;
+    font-family: 'The Seasons';
   }
 }
-
-
