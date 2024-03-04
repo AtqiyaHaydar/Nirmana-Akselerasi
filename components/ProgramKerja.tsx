@@ -112,14 +112,16 @@ const ProgramKerja = () => {
     <div className="max-w-4xl grid grid-cols-2 md:grid-cols-3 gap-8 z-30 px-4 items-center justify-center w-full">
       {programKerja.map((program) => {
         return (
-          <div key={program.id} className="w-[175px] md:w-[270px] h-[125px] text-center text-white font-source-code-pro bg-white/5 border-2 border-white rounded-xl flex items-center justify-center cursor-pointer hover:bg-white/25 transition-all hover:text-primaryOrange">
+          <div key={program.id}>
             <Dialog>
               <DialogTrigger asChild>
-                <Button variant={"ghost"}>
-                  <span className="text-[12px] md:text-[16px]">
-                    {program.name}
-                  </span>
-                </Button>
+                <div className="w-[175px] md:w-[270px] h-[125px] text-center text-white font-source-code-pro bg-white/5 border-2 border-white rounded-xl flex items-center justify-center cursor-pointer hover:bg-white/25 transition-all hover:text-primaryOrange">
+                  <Button variant={"ghost"}>
+                    <span className="text-[12px] md:text-[16px]">
+                      {program.name}
+                    </span>
+                  </Button>
+                </div>
               </DialogTrigger>
               <DialogContent>
                 <div className="border-2 border-white rounded-xl text-white p-8 bg-space/75 space-y-4">
