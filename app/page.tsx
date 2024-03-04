@@ -62,11 +62,12 @@ export default function Home() {
       <p className="px-4 text-white text-center font-source-code-pro pt-20 pb-4">
         Lihat Selengkapnya Di 
       </p>
-      <div className="text-space font-source-code-pro bg-primaryOrange rounded-xl px-16 py-4 mb-8 cursor-pointer z-30 hover:bg-primaryOrange/75">
-        <a target="_blank" href="https://drive.google.com/file/d/12UJR-MGnlqnHfBDVZ9oJTPR1malDLVBv/view">
-          Draft Kenneth
-        </a>
-      </div>
+      
+      <a target="_blank" href="https://drive.google.com/file/d/12UJR-MGnlqnHfBDVZ9oJTPR1malDLVBv/view" className="z-30">
+        <div className="text-space font-source-code-pro bg-primaryOrange rounded-xl px-16 py-4 mb-8 cursor-pointer z-30 hover:bg-primaryOrange/75">
+            Draft Kenneth
+        </div>
+      </a>
 
       {/* Astronomy */}
       {/* Meteor */}
@@ -78,6 +79,7 @@ export default function Home() {
       >
         <source src="/9.webm" type="video/webm" />
       </video>
+      <div className="pb-12" />
   
     </main>
   );
